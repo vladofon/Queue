@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Table templater">
+      <UniqueIdentifier>{c519c0b2-008f-4a6a-a86c-93ad6da7f563}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Task-3_QueueApp.cpp">
@@ -24,6 +27,33 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="LinkedQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header Files\Table templater</Filter>
+    </ClInclude>
+    <ClInclude Include="SchemaFormatter.h">
+      <Filter>Header Files\Table templater</Filter>
+    </ClInclude>
+    <ClInclude Include="SchemaParser.h">
+      <Filter>Header Files\Table templater</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueFormatter.h">
+      <Filter>Header Files\Table templater</Filter>
+    </ClInclude>
+    <ClInclude Include="TableRecord.h">
+      <Filter>Header Files\Table templater</Filter>
+    </ClInclude>
+    <ClInclude Include="TableSchema.h">
+      <Filter>Header Files\Table templater</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayList.h">
+      <Filter>Header Files\Table templater</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Number.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

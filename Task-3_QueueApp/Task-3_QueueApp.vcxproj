@@ -142,8 +142,17 @@
     <ClCompile Include="Task-3_QueueApp.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArrayList.h" />
     <ClInclude Include="LinkedQueue.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="Number.h" />
+    <ClInclude Include="Point.h" />
     <ClInclude Include="Queue.h" />
+    <ClInclude Include="QueueFormatter.h" />
+    <ClInclude Include="SchemaFormatter.h" />
+    <ClInclude Include="SchemaParser.h" />
+    <ClInclude Include="TableRecord.h" />
+    <ClInclude Include="TableSchema.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

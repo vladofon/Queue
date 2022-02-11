@@ -1,4 +1,5 @@
 #pragma once
+#include<string>
 
 template<class E>
 class Queue
@@ -15,4 +16,6 @@ public:
    virtual void clean() = 0;
 
    virtual long getSize() = 0;
+
+   virtual std::string toString() = 0;
 };

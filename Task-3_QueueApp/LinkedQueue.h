@@ -1,5 +1,8 @@
 #pragma once
 #include"Queue.h"
+#include<string>
+
+using namespace std;
 
 template<class E>
 class LinkedQueue : public Queue<E>
@@ -72,6 +75,21 @@ public:
    long getSize()
    {
       return size;
+   }
+
+   string toString()
+   {
+      string result = "";
+
+      Node* current = head;
+
+      while (current->pPrev != nullptr)
+      {
+         result += "[" + current->element.toString() + "] ";
+         current = current->pPrev;
+      }
+
+      return result;
    }
 
 private:
