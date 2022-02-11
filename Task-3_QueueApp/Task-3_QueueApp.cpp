@@ -62,7 +62,6 @@ int main()
 
    QueueFormatter* formatter = new QueueFormatter();
    string result = formatter->format(pointsQueue, numbers);
-
    cout << result;
 }
 

@@ -10,7 +10,7 @@ public:
       this->y = y;
    }
 
-   Point() {}
+   Point() {} // empty constructor for list
 
    std::string toString()
    {
